@@ -220,7 +220,7 @@ fi
 
 # APP软件客服
 echo
-echo -n -e "请输入APP客服QQ [默认:Fyue/飞跃QQ ]"
+echo -n -e "请输入APP客服QQ [默认:1309822767 ]"
 read adminqq
 if [ -z $adminqq ]
 then
@@ -811,7 +811,7 @@ echo -e "
 ---------------------------------------------------------
      欢迎您使用快云免流两分钟极速一键VPN搭建脚本     
 ---------------------------------------------------------
-流量前台地址：http://$IP:$webdk/user
+流量前台(用户中心)地址：http://$IP:$webdk/user
 代理后台地址：http://$IP:$webdk/daili
 管理员后台地址：http://$IP:$webdk/admin
 软件下载地址：http://$IP:$webdk/user/app
@@ -834,6 +834,7 @@ Kyun
 
 exit 0
 
-# By Fyue/飞跃 
-# 2017年10月28日
+# By Fyue/飞跃
+# 搬运 图匪
+# 2018年10月20日
 # 本脚本版权归快云免流所有
